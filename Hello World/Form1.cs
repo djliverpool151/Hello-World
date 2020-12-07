@@ -24,7 +24,17 @@ namespace Hello_World
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello World");
+            MessageBox.Show("Hello " + txtBxname.Text);
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Goodbye " + txtBxname.Text);
+        }
+
+        private void TextBox1_TextChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }
