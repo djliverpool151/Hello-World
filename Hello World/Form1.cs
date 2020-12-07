@@ -29,7 +29,7 @@ namespace Hello_World
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Goodbye " + txtBxname.Text);
+            MessageBox.Show("Goodbye there" + txtBxname.Text);
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
